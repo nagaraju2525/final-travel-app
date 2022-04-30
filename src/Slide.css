@@ -1,0 +1,11 @@
+.image-slider img{
+    height: 500px;
+    width: auto;
+}
+.image-name{
+    margin-bottom: 250px;
+}
+.image-name h3{
+    color: lightcyan;
+    font-size: 50px;
+}

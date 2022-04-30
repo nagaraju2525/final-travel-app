@@ -1,0 +1,30 @@
+  <div className="row r">
+        <div className="col-5 column-5">
+          <img
+            src={TourImage}
+            alt="tour"
+            width="100%"
+            height="100%"
+            style={{ borderRadius: "12px" }}
+          />
+        </div>
+        <div className="col-7 column-7">
+          <div className="content-paragraph">
+            <h3 className="aa">Kerala</h3>
+
+            <p>
+              Kerala, a state situated on the tropical Malabar Coast of
+              southwestern India, is one of the most popular tourist
+              destinations in the country. Named as one of the ten paradises of
+              the world by National Geographic Traveler,[1] Kerala is famous
+              especially for its ecotourism initiatives and beautiful
+              backwaters.[2] Its unique culture and traditions, coupled with its
+              varied demography, have made Kerala one of the most popular
+              tourist destinations in the world. Growing at a rate of 13.31%,
+              the tourism industry is a major contributor to the state's
+              economy.[3]
+            </p>
+            <button className="btn btn-success">Visit</button>
+          </div>
+        </div>
+      </div>

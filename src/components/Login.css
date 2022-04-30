@@ -1,0 +1,80 @@
+/* .login-input{
+    width: 350px;
+}
+.login-inputTwo{
+    width: 350px;
+}
+h1{
+    color: lightskyblue;
+} */
+
+.login-form{
+    /* margin-left: 30%; */
+    /* position: relative;
+    top: 20px;
+    border: 2px solid lightblue;
+    height: 600px; */
+
+}
+.main-form{
+    /* padding-left: 30%; */
+    /* background-color: lightslategray;
+    width: 550px;
+    height: 450px;
+    margin-left: 30%;
+    padding-left: 80px;
+    padding-top: 30px;
+    margin-top: 60px; */
+}
+/* .login-name{
+   margin-left: 80px;
+} */
+/* .reset:hover{
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
+.main-register-auto{
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-image: url(../images/boy-back.jpg);
+    /* color: whitesmoke; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.register-title-auto{
+    color: black;
+}
+.submit-btn{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.register-title-auto{
+    position: relative;
+    left: -49px;
+    bottom: 0px;
+}
+.myForm {
+    min-width: 500px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem
+  }
+  .form-check-input{
+    left: 116px;
+    position: relative;
+  }
+  .form-check{
+      margin-top: 20px;
+  }
+@media (max-width: 500px) {
+    .myForm {
+      min-width: 100%;
+    }
+  }
+

@@ -1,0 +1,89 @@
+.aa-md{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.dropdown-image{
+    width: 250px;
+    height: 300px;
+    color: white;
+    background: url(./pexels-asif-methar-789750.jpg);
+    cursor: pointer;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.image-content{
+  padding-left: 10px;
+ 
+}  
+.image-discription{
+  color: rgb(110, 13, 110);
+}
+.dropdown{
+    position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  
+    z-index: 1;
+    
+  }
+  
+ .dropdown:hover .dropdown-content {
+    display: block;
+   
+  }
+  .learn-more{
+    color: whitesmoke;
+  }
+  .learn-more:hover{
+    cursor: pointer;
+    color: blue;
+  }
+  .dropdown-imageTwo{
+    width: 250px;
+    height: 300px;
+    color: white;
+    background: url(./pexels-sudipta-mondal-1603650.jpg);
+    
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.dropdown-imageThree{
+  width: 250px;
+  height: 300px;
+  color: white;
+  background: url(./pexels-trimurthy-9025814.jpg);
+  background-size: cover;
+  background-repeat:no-repeat ;
+  background-position: center;
+  
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}

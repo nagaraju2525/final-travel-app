@@ -1,0 +1,108 @@
+.card-one{
+    background-image: url(./images/kerala4.jpg);
+    background-repeat: no-repeat;
+   background-size: 100%;
+    /* border: 2px solid black; */
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.body-heading{
+    text-align: center;
+    color: cadetblue;
+    font-style: italic;
+   margin-top: 30px;
+}
+
+
+.content-paragraph{
+    /* position: absolute; */
+    height: 350px;
+    backdrop-filter: blur(13px) saturate(169%);
+    -webkit-backdrop-filter: blur(13px) saturate(169%);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.content-paragraph aa{
+    text-align: center;
+    /* display: flex; */
+} 
+.content-paragraph{
+    text-align: center;
+    /* top: 20%; */
+}
+
+/* bodyTwo.js css */
+.body-two{
+    margin-top: 30px;
+}
+.body-two{
+    display: flex;
+    flex-direction: row;
+}
+.second-cardImage{
+    background-image: url(./images/ladakh.jpg);
+    background-repeat: no-repeat;
+   background-size: 100%;
+    /* border: 2px solid black; */
+    padding: 20px;
+    border-radius: 12px;
+}
+.content-paragraphTwo{
+    text-align: center;
+    height: 350px;
+    backdrop-filter: blur(13px) saturate(169%);
+    -webkit-backdrop-filter: blur(13px) saturate(169%);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .card-image{
+      display: none;
+  }
+  .cardTwo{
+      left: 15%;
+      position: absolute;
+  }
+  .cardThree{
+      margin-top: 50%;
+      left: 15%;
+  }
+  }
+@media only screen and (max-width: 756px){
+    .paragraph{
+        display: none;
+    }
+    .paragraphTwo{
+        display: none;
+    }
+   
+    .content-paragraph{
+        height: 200px;
+        
+       
+    }
+    .content-paragraphTwo{
+        height: 200px;
+    }
+
+    .cardThree{
+        width: 250px;
+    }
+    .visit-button{
+        top: 130px;
+        left: 200px;
+       
+    }
+}  
